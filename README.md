@@ -6,7 +6,7 @@ This repository contains the visual interface elements and screenshots of our re
 
 ## 🔍 Implemented Tools
 
-The QualCode system offers diverse perspectives on the status of software components. The provided analysis details and impactful metrics for each subcharacteristic are viewable in suitable chart formats within the QualCode system. (Fig. 1). The version analysis page provides an initial overview of the status of the five primary subcharacteristics, offering insights into the project's overall condition. In the sidebar tab, users can access detailed analysis information for each of these subcharacteristics.
+The QualCode system offers diverse perspectives on the status of software components. The provided analysis details and impactful metrics for each subcharacteristic are viewable in suitable chart formats within the QualCode system. (Figure 1). The version analysis page provides an initial overview of the status of the five primary subcharacteristics, offering insights into the project's overall condition. In the sidebar tab, users can access detailed analysis information for each of these subcharacteristics.
 
 ![Figure 1](./docs/images/callgraph.png)
 **Figure 1: Call graph of project classes**
