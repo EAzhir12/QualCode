@@ -1,6 +1,6 @@
 # QualCode Visualization 
 
-This repository contains the visual interface elements and screenshots referenced in **Section 6** of our research paper entitled "An Innovative ISO-Based Computational Framework for Software Maintainability Assessment". These visuals demonstrate the analysis and visualization capabilities of the **QualCode** system.
+This repository contains the visual interface elements and screenshots of our research paper entitled "An Innovative ISO-Based Computational Framework for Software Maintainability Assessment". These visuals demonstrate the analysis and visualization capabilities of the **QualCode** system.
 
 ---
 
