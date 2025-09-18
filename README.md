@@ -1,57 +1,48 @@
-# QualCode Visualization – Section 6 Supplement
+# QualCode Visualization 
 
 This repository contains the visual interface elements and screenshots referenced in **Section 6** of our research paper entitled "An Innovative ISO-Based Computational Framework for Software Maintainability Assessment". These visuals demonstrate the analysis and visualization capabilities of the **QualCode** system.
 
 ---
 
-## 🔍 Overview
+## 🔍 Implemented Tools
 
-**QualCode** provides various visualizations to assess software component quality. These include call graphs, heatmaps, and metric detail tables.
+The QualCode system offers diverse perspectives on the status of software components. The provided analysis details and impactful metrics for each subcharacteristic are viewable in suitable chart formats within the QualCode system. (Fig. 1). The version analysis page provides an initial overview of the status of the five primary subcharacteristics, offering insights into the project's overall condition. In the sidebar tab, users can access detailed analysis information for each of these subcharacteristics.
 
----
+![Figure 1](./docs/images/callgraph.png)
+**Figure 1: Call graph of project classes**
 
-### 📈 Call Graph Visualizations
 
-**Fig. 7: Call graph of project classes**
+Regarding modularity, QualCode provides a visual representation of component call graphs, fostering in-depth exploration through interactive features such as clicking on graph nodes (illustrated in Figure 2). 
 
-![Fig 8](./docs/images/fig7-callgraph.png)
+![Figure 2](./docs/images/callgraph-click.png)
+**Figure 2: Call graph of project classes**
 
-**Fig. 8: Call graph of project classes**
+Furthermore, the system employs heatmaps to visually depict subcharacteristic values, which can be traced down to the class level. Each mosaic in this heatmap represents a class or package. Notably, these heatmaps offer the capability to reveal influential metric values through a simple hover-over interaction (refer to Figures 3 to 6). For instance, in Fig.9, hovering the mouse pointer over a mosaic displays the testability metrics associated with that mosaic. Additionally, the color of each section indicates the quality score for testability in that section.
 
-![Fig 9](./docs/images/fig8-callgraph-click.png)
+![Figure 3](./docs/images/testability-heatmap.png)
+**Figure 3: Testability heatmap and display of its metrics down to the class level**
 
----
+![Figure 4](./docs/images/reusability-heatmap.png)
+**Figure 4: Reusability heatmap and display of its metrics down to the class level**
 
-### 🟦 Heatmaps by Subcharacteristic
+![Figure 5](./docs/images/modifiability-heatmap.png)
+**Figure 5: Modifiability heatmap and display of its metrics down to the class level**
 
-**Fig. 9: TTestability heatmap and display of its metrics down to the class level**
+![Figure 6](./docs/images/analyzability-heatmap.png)
+**Figure 6: Analyzability heatmap and display of its metrics down to the class level**
 
-![Fig 10](./docs/images/fig9-testability-heatmap.png)
 
-**Fig. 10: Reusability heatmap and display of its metrics down to the class level**
+Lastly, QualCode enhances the understanding of software quality by presenting detailed tables showcasing modifiability and analyzability metrics, further aiding users in their assessment and decision-making processes (demonstrated in Figures 7 and 8).
 
-![Fig 11](./docs/images/fig10-reusability-heatmap.png)
+![Figure 7](./docs/images/modifiability-details.png)
+**Figure 7: Details of modifiability**
 
-**Fig. 11: Modifiability heatmap and display of its metrics down to the class level**
 
-![Fig 12](./docs/images/fig11-modifiability-heatmap.png)
 
-**Fig. 12: Analyzability heatmap and display of its metrics down to the class level**
+![Fig 8](./docs/images/analyzability-details.png)
+**Figure 8: Details of analyzability**
 
-![Fig 13](./docs/images/fig12-analyzability-heatmap.png)
 
----
 
-### 📊 Metric Details
-
-**Fig. 13: Details of modifiability**
-
-![Fig 14](./docs/images/fig13-modifiability-details.png)
-
-**Fig. 14: Details of analyzability**
-
-![Fig 15](./docs/images/fig14-analyzability-details.png)
-
----
 
 
