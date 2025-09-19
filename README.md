@@ -54,4 +54,4 @@ Lastly, QualCode enhances the understanding of software quality by presenting de
 You can find the datasets used for model training and evaluation in the [`data/`](data/) directory. 
 
 #  Results
-The results/ directory contains extended results that complement the findings reported in the paper. This includes detailed evaluation scores, benchmark comparisons (e.g., against SonarQube and UND), and project-level results that were summarized in the main text.
+The [`results/`](results/)  directory contains extended results that complement the findings reported in the paper. This includes detailed evaluation scores, benchmark comparisons (e.g., against SonarQube and UND), and project-level results that were summarized in the main text.
