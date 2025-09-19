@@ -32,17 +32,17 @@ Clicking on a project from the list opens its profile page, showing project deta
 **Uploading a Version**
 Project files are uploaded to QualCode by version. To manage versions, click on the desired project to open its profile page, then go to the Versions tab. The list of existing versions will be displayed. To create a new version, click “New Version”. Similar to project creation, there are three ways to add a version:
 
--**Manual:** Enter the version identifiers (Major, Minor, Patch), upload the version files, and click Create Version.  
--**GitLab import:** If no token was provided during project creation, enter it in the project settings under access settings. Then complete the version identifiers, select the branch and commit, and click Create Version.  
--**GitHub import:** Follows the same procedure as GitLab, but only the project URL is required.  
+- **Manual:** Enter the version identifiers (Major, Minor, Patch), upload the version files, and click Create Version.  
+- **GitLab import:** If no token was provided during project creation, enter it in the project settings under access settings. Then complete the version identifiers, select the branch and commit, and click Create Version.  
+- **GitHub import:** Follows the same procedure as GitLab, but only the project URL is required.  
 
 **Analyzing a Version**
 To analyze a version, go to the project’s Versions page, select the desired version, and click Analyze from the operations menu. Analysis time depends on project size and may range from a few seconds to several hours. Each version can have four statuses:
 
-**Not Analyzed:** Version uploaded but not yet analyzed.  
-**Analyzing:** Version is currently being analyzed.  
-**View Analysis:** Analysis completed and results are available.  
-**Analysis Failed: **An error occurred during analysis.  
+- **Not Analyzed:** Version uploaded but not yet analyzed.  
+- **Analyzing:** Version is currently being analyzed.  
+- **View Analysis:** Analysis completed and results are available.  
+-- **Analysis Failed:** An error occurred during analysis.  
 
 **Viewing Analysis Results**
 If a version’s status is View Analysis, click the corresponding button or select View Analysis from the operations menu to see the results. The analysis page first presents a summary of the five main subcharacteristics, showing the overall project status (Figure 1). Detailed results for each subcharacteristic are available in the sidebar tab.
