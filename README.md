@@ -1,5 +1,5 @@
 
- ## An Innovative ISO-Based Computational Framework for Software Maintainability Assessment
+ # An Innovative ISO-Based Computational Framework for Software Maintainability Assessment
 
 The **QualCode** system combines ISO/IEC 25010 quality subcharacteristics with machine learning models to assess software maintainability across dimensions such as modularity, testability, reusability, analyzability, and modifiability. This repository provides tools and data for exploring and reproducing the visual and analytical components of our system.
 
@@ -14,9 +14,6 @@ The **QualCode** system combines ISO/IEC 25010 quality subcharacteristics with m
 # QualCode Visualization
 
 This repository contains the visual interface elements and screenshots of our research paper entitled "An Innovative ISO-Based Computational Framework for Software Maintainability Assessment". These visuals demonstrate the analysis and visualization capabilities of the **QualCode** system.
-
-## 🔍 Implemented Tools
-
 The QualCode system offers diverse perspectives on the status of software components. The provided analysis details and impactful metrics for each subcharacteristic are viewable in suitable chart formats within the QualCode system. (Figure 1). The version analysis page provides an initial overview of the status of the five primary subcharacteristics, offering insights into the project's overall condition. In the sidebar tab, users can access detailed analysis information for each of these subcharacteristics.
 
 ![Figure 1](./docs/images/callgraph.png)
@@ -52,7 +49,7 @@ Lastly, QualCode enhances the understanding of software quality by presenting de
 **Figure 8: Details of analyzability**
 
 
-## 📂 Datasets
+#  Datasets
 
 You can find the datasets used for model training and evaluation in the [`data/`](data/) directory. 
 
