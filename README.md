@@ -42,7 +42,7 @@ To analyze a version, go to the project’s Versions page, select the desired ve
 - **Not Analyzed:** Version uploaded but not yet analyzed.  
 - **Analyzing:** Version is currently being analyzed.  
 - **View Analysis:** Analysis completed and results are available.  
--- **Analysis Failed:** An error occurred during analysis.  
+- **Analysis Failed:** An error occurred during analysis.  
 
 **Viewing Analysis Results**
 If a version’s status is View Analysis, click the corresponding button or select View Analysis from the operations menu to see the results. The analysis page first presents a summary of the five main subcharacteristics, showing the overall project status (Figure 1). Detailed results for each subcharacteristic are available in the sidebar tab.
