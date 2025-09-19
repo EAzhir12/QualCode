@@ -50,25 +50,25 @@ If a version’s status is View Analysis, click the corresponding button or sele
 ![Figure 1](./docs/images/callgraph.png)
 **Figure 1: Call graph of project classes**
 
-
-**Modifiability:** Shows a tree-heatmap visualization for files and packages. Each tile represents a class or package, and hovering over a tile displays its associated modifiability metrics. The color indicates the quality score of that component.
-Clicking on a tile (if it represents a package) drills down to show the classes and sub-packages within it. This drill-down approach is available for all metrics, enabling detailed exploration of results.
-
-**Testability:** Displays the project’s class call graph. Each node represents a class, and each edge represents a relationship between two classes.
-
-
-Regarding modularity, QualCode provides a visual representation of component call graphs, fostering in-depth exploration through interactive features such as clicking on graph nodes (illustrated in Figure 2). 
+**Modularity:** Regarding modularity, QualCode provides a visual representation of component call graphs, fostering in-depth exploration through interactive features such as clicking on graph nodes (illustrated in Figure 2). 
 
 ![Figure 2](./docs/images/callgraph-click.png)
 **Figure 2: Call graph of project classes**
 
 Furthermore, the system employs heatmaps to visually depict subcharacteristic values, which can be traced down to the class level. Each mosaic in this heatmap represents a class or package. Notably, these heatmaps offer the capability to reveal influential metric values through a simple hover-over interaction (refer to Figures 3 to 6). For instance, in Fig.9, hovering the mouse pointer over a mosaic displays the testability metrics associated with that mosaic. Additionally, the color of each section indicates the quality score for testability in that section.
 
+
+
+**Testability:** Displays the project’s class call graph. Each node represents a class, and each edge represents a relationship between two classes.
+
 ![Figure 3](./docs/images/testability-heatmap.png)
 **Figure 3: Testability heatmap and display of its metrics down to the class level**
 
 ![Figure 4](./docs/images/reusability-heatmap.png)
 **Figure 4: Reusability heatmap and display of its metrics down to the class level**
+
+**Modifiability:** Shows a tree-heatmap visualization for files and packages. Each tile represents a class or package, and hovering over a tile displays its associated modifiability metrics. The color indicates the quality score of that component.
+Clicking on a tile (if it represents a package) drills down to show the classes and sub-packages within it. This drill-down approach is available for all metrics, enabling detailed exploration of results.
 
 ![Figure 5](./docs/images/modifiability-heatmap.png)
 **Figure 5: Modifiability heatmap and display of its metrics down to the class level**
