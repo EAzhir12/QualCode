@@ -5,12 +5,11 @@ The **QualCode** system combines ISO/IEC 25010 quality subcharacteristics with m
 
 ## Repository Structure
 
-├── docs/images/ # UI screenshots and figures used in the paper (Section 6)
-├── data/ # Benchmark datasets used for training and evaluation
-├── results/ # Output results, processed metrics, and analysis outputs
+├── docs/images/ # UI screenshots and figures used in the paper (Section 6)  
+├── data/ # Benchmark datasets used for training and evaluation  
+├── results/ # Output results, processed metrics, and analysis outputs  
 └── README.md # This file
 
-<pre> ├── docs/images/ # UI screenshots and figures used in the paper (Section 6) ├── data/ # Benchmark datasets used for training and evaluation ├── results/ # Output results, processed metrics, and analysis outputs └── README.md # This file </pre>
 
 # QualCode Visualization
 
